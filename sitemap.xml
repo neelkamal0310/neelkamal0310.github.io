@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://neelkamal.codes/</loc>
+    <lastmod>2021-07-07T11:13:05+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/posts/</loc>
+    <lastmod>2021-07-07T11:13:05+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/tags/python/</loc>
+    <lastmod>2021-07-07T11:13:05+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/tags/</loc>
+    <lastmod>2021-07-07T11:13:05+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/posts/virtualenv-python/</loc>
+    <lastmod>2021-07-07T11:13:05+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/posts/first-post/</loc>
+    <lastmod>2021-07-06T11:55:25+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/tags/first-post/</loc>
+    <lastmod>2021-07-06T11:55:25+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/about/</loc>
+    <lastmod>2021-07-03T20:15:57+05:30</lastmod>
+  </url><url>
+    <loc>https://neelkamal.codes/categories/</loc>
+  </url>
+</urlset>

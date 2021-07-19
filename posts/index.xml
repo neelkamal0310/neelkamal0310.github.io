@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Homepage</title>
+    <link>https://neelkamal.codes/posts/</link>
+    <description>Recent content in Posts on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jul 2021 11:13:05 +0530</lastBuildDate><atom:link href="https://neelkamal.codes/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtual Environments in Python</title>
+      <link>https://neelkamal.codes/posts/virtualenv-python/</link>
+      <pubDate>Wed, 07 Jul 2021 11:13:05 +0530</pubDate>
+      
+      <guid>https://neelkamal.codes/posts/virtualenv-python/</guid>
+      
+        <description>Manage your python work environments efficiently</description>
+      
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://neelkamal.codes/posts/first-post/</link>
+      <pubDate>Tue, 06 Jul 2021 11:55:25 +0530</pubDate>
+      
+      <guid>https://neelkamal.codes/posts/first-post/</guid>
+      
+        <description>How did you get here?</description>
+      
+    </item>
+    
+  </channel>
+</rss>
