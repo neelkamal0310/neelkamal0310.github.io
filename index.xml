@@ -6,7 +6,18 @@
     <description>Recent content on Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jul 2021 11:13:05 +0530</lastBuildDate><atom:link href="https://neelkamal.codes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 12:00:00 +0530</lastBuildDate><atom:link href="https://neelkamal.codes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remote Access/Gaming With No Public IP</title>
+      <link>https://neelkamal.codes/posts/remote-access-with-no-public-ip/</link>
+      <pubDate>Sat, 17 Jul 2021 12:00:00 +0530</pubDate>
+      
+      <guid>https://neelkamal.codes/posts/remote-access-with-no-public-ip/</guid>
+      
+        <description>An article on how to set up Zerotier for SSH, gaming or other stuff that requires you to have a public IP, without actually having a public IP</description>
+      
+    </item>
+    
     <item>
       <title>Virtual Environments in Python</title>
       <link>https://neelkamal.codes/posts/virtualenv-python/</link>
@@ -36,7 +47,8 @@
       
       <guid>https://neelkamal.codes/about/</guid>
       
-        <description>Hi I am Neel Kamal Panda </description>
+        <description>Hi I am Neel Kamal Panda  Currently working on this site. Thank you for visiting.
+ </description>
       
     </item>
     

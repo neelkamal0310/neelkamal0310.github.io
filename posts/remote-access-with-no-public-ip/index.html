@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="dark"
+><head>
+  <title>
+    Neel Kamal Panda
+      |
+      Remote Access/Gaming With No Public IP
+
+
+    
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta
+    name="description"
+    content="
+      This is my homepage
+Short articles and other stuff
+
+
+
+    "
+  />
+  
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/main.min.2f5d370cb29fa2cd652f34e5330b424f6f521e0fc17fdc4c492a3702fbea3d17.css"
+    integrity="sha256-L103DLKfos1lLzTlMwtCT29SHg/Bf9xMSSo3AvvqPRc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
+    integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="/posts/remote-access-with-no-public-ip/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js"
+    integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w="
+    crossorigin="anonymous"
+  ></script>
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Remote Access/Gaming With No Public IP"/>
+<meta name="twitter:description" content="An article on how to set up Zerotier for SSH, gaming or other stuff that requires you to have a public IP, without actually having a public IP"/>
+
+
+
+  
+</head>
+<body>
+    <header><div
+  class="page-top 
+    .
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+  <nav>
+    <ul class="nav__list" id="navMenu">
+      <div class="nav__links">
+        
+        
+          
+          <li>
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+
+        
+          
+          <li>
+            <a
+              
+              href="/posts/"
+              
+              title=""
+              >Archive</a
+            >
+          </li>
+
+        
+          
+          <li>
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+
+        
+        
+      </div>
+      <li>
+        
+      </li>
+    </ul>
+  </nav>
+</div>
+</header>
+    <div class="wrapper">
+      <aside><div
+  class="sidebar
+    .
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="logo-title">
+      <div class="title">
+        <img src="/images/profile.jpg" alt="profile picture" />
+        <h3 title=""><a href="/">I&#39;m Neel</a></h3>
+        <div class="description">
+          <p>This is my homepage<br />Short articles and other stuff<br /></p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+      
+        <li>
+          <a href="https://linkedin.com/in/neelkamal0" rel="me" aria-label="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li>
+          <a href="mailto:neelkamal0310@gmail.com" rel="me" aria-label="E-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li>
+          <a href="https://twitter.com/neelkamal0310" rel="me" aria-label="Twitter">
+            <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li>
+          <a href="https://github.com/neelkamal0310" rel="me" aria-label="Github">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer--sidebar">
+  <div class="by_farbox">
+    <ul class="footer__list">
+      <li class="footer__item">
+        &copy;
+        
+          Neel Kamal Panda
+          2021
+
+
+        
+      </li>
+      
+    </ul>
+  </div>
+</footer></div>
+</aside>
+      <main>
+        <div class="autopagerize_page_element">
+          <div class="content">
+  <div
+    class="post 
+      .
+
+    "
+  >
+    <div class="post-content">
+      
+      <div class="post-title">
+        <h1>Remote Access/Gaming With No Public IP</h1>
+        
+      </div>
+
+      <p><em>Please visit Zerotier homepage <a href="https://zerotier.com/">here</a> if you want to
+know more about it or check <a href="https://zerotier.com/download/">here</a> for odwnloads.</em></p>
+<p>In this article we will cover how to set up a Zerotier network for remote access (gaming or ssh-ing into your computer) over the internet without having an actual public IP.</p>
+<p>In very simple words, Zerotier can be described as a tunnel that creates a local network
+over the internet with all the devices connected to the same network (over VPN) with every device having the same static/local IP when connected to the Zerotier network.</p>
+<h1 id="creating-a-zerotier-network">Creating a Zerotier Network</h1>
+<ol>
+<li>
+<p>First we will head to their <a href="https://zerotier.com/#">homepage</a> and get an account/log in if we already have on.</p>
+<p><img src="/remote-access-with-no-public-ip/1.png" alt="homepage" title="homepage"></p>
+</li>
+<li>
+<p>After we create an account and log in, we click on the big button that says <strong>Create A Network</strong>.</p>
+<p><img src="/remote-access-with-no-public-ip/2.png" alt="create network" title="create a network"></p>
+</li>
+<li>
+<p>That will create a new network and add it to the list. Click on the network id to open the network dashboard and to set up a few things.</p>
+<p><img src="/remote-access-with-no-public-ip/3.png" alt="new network" title="new network"></p>
+</li>
+<li>
+<p>Here are the few settings we are interested in (you are free to check out other settings as well).</p>
+<p>In basic settings we can change our network name, and visibility (private or public). Public means that anyone with network id can join your network. In private we have to authorize the device in order for the device to be visible in the network.</p>
+<p><img src="/remote-access-with-no-public-ip/4.png" alt="basic" title="basic settings"></p>
+<p>In the ipv4 auto-assign settings we can configure how the ip of a device looks like over the Zerotier network</p>
+<p><img src="/remote-access-with-no-public-ip/5.png" alt="ip assign" title="ip assign"></p>
+<p>And finally, the members section where we can see each member on the network and can change or add IPs for them on the network. Note: In public visibility we cannot delete members. Currently we have no devices on our network. We will add two devices in this article.</p>
+<p><img src="/remote-access-with-no-public-ip/6.png" alt="members" title="members"></p>
+</li>
+</ol>
+<h1 id="joining-a-zerotier-network-linux">Joining a Zerotier Network (Linux)</h1>
+<ol>
+<li>
+<p><code>zerotier-one</code> binary is available for <code>pacman</code> (Arch based distros).</p>
+<p>For apt and yum, check <a href="https://zerotier.com/download/">here</a> or run:</p>
+<p><code>curl -s https://install.zerotier.com | sudo bash</code></p>
+</li>
+<li>
+<p>Then we will start the <code>zerotier-one.service</code> service with systemctl.</p>
+<p><code>sudo systemctl start zerotier-one.service</code></p>
+<p><strong>and/or</strong></p>
+<p><code>sudo sudo systemctl enable zerotier-one.service</code></p>
+<p>if we want it to start automatically on boot.</p>
+</li>
+<li>
+<p>Then we will copy the network id (<strong><code>d5e5fb6537ea1a99</code></strong> in this case, replace this with your own) and run:</p>
+<p><code>sudo zerotier-cli join d5e5fb6537ea1a99</code></p>
+</li>
+<li>
+<p>If we see a <code>200 join OK</code> output, everything went right. Our device will not yet show up under members on the network dashboard since we need at least 2 devices on a network to configure or see each device&rsquo;s settings. Next we will use an Android device to connect to our network and see the settings for our devices.</p>
+<p><img src="/remote-access-with-no-public-ip/7.png" alt="one-member" title="members"></p>
+</li>
+</ol>
+<h1 id="joining-a-zerotier-network-android">Joining a Zerotier Network (Android)</h1>
+<ol>
+<li>
+<p>First we will head over to Play Store and download <strong>Zerotier One</strong>.</p>
+</li>
+<li>
+<p>Then we will click the <strong><code>+</code></strong> on top right.</p>
+<p><img src="/remote-access-with-no-public-ip/8.png" alt="add-network" title="add network"></p>
+</li>
+<li>
+<p>Then we will provide the network-id and click the checkbox that says to route all traffic through zerotier and then finally click add network.</p>
+<p><img src="/remote-access-with-no-public-ip/9.png" alt="add-network" title="add network"></p>
+</li>
+<li>
+<p><strong>Our network should already be visible on the network list by now. We can connect to it but we cannot access the devices on the network yet because our network is private and we have not authorized the devices yet. So we will head over to our network dashboard and authorize it and also the Linux computer we added earlier by ticking the checkbox to the left of both our connected devices.</strong></p>
+</li>
+<li>
+<p>Once both devices are authorized, we can toggle the switch on our Android app to connect to the network.</p>
+<p><img src="/remote-access-with-no-public-ip/10.png" alt="connected" title="click here to connect"></p>
+</li>
+</ol>
+<h1 id="joining-a-zerotier-network-windows">Joining a Zerotier Network (Windows)</h1>
+<p>For Windows, we will download the setup from <a href="https://zerotier.com/download/">here</a>, install it and follow the exact same steps for Android, which involves entering the Network ID, enabling the network and then authorizing it in the Members section on our network dashboard.</p>
+<h1 id="member-settings">Member Settings</h1>
+<p>Now we can tweak a few settings for every connected device. It is useful to give each device we add a name and description to identify them because there is no other way to actually identify them otherwise.</p>
+<p>First we will go our Members section of our network dashboard.</p>
+<p><img src="/remote-access-with-no-public-ip/11.png" alt="members" title="click here to connect"></p>
+<p>So far(as shown in the image) we have successfully added a Linux and an Android device to our network. The names were manually added and not automatically assigned. The IPs marked with green are the ones for the respective devices. We can use them wheneer we are connected to the network.</p>
+<p>We can verify that by a simple ping while connected to the network.</p>
+<p><img src="/remote-access-with-no-public-ip/12.png" alt="ping" title="ping"></p>
+<p>Now for ssh; we can use:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ssh user@192.168.195.88
+</code></pre></td></tr></table>
+</div>
+</div><p>from any device in the network and it will work. It doesn&rsquo;t have to be on a local network or on the same Wifi.</p>
+<p>We can also change the format of our IP by selecting a different IP format from ipv4 auto-assign (refer image 2 of step 4 in <a href="#creating-a-zerotier-network">Creating a Zerotier Network</a>. The new IPs will be added. Note that the old ones will not be deleted, we have to delete them manually.</p>
+<p>We can also manually add more IPs for a device by writing them in the text box under their specific IP in the network dashboard and clicking the &lsquo;+&rsquo; button. But the IP should be in the exact form as the one in the selected IP auto assign format. We can only change the part in &lsquo;*&rsquo;.</p>
+<h1 id="whats-next">What&rsquo;s next</h1>
+<p>So, that&rsquo;s how we create and add a device to a Zerotier network. After everything is configured we can use that IP for sshing into a computer on the network or playing multiplayer games on the internet without having an actual public IP. Note that this method works as long as the clients are connected to the same network.</p>
+<p>If you see or face any errors, please shoot me an e-mail or hit me up on twitter and I&rsquo;ll try my best to help you out.</p>
+<p>Thank you for reading.</p>
+</div>
+    <div class="post-footer">
+      <div class="info">
+        
+
+        
+          <span class="separator"><a class="tag" href="/tags/networking/">networking</a><a class="tag" href="/tags/linux/">linux</a><a class="tag" href="/tags/android/">android</a></span>
+
+
+
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+
+
+          </div>
+        </div>
+      </main>
+    </div><footer class="footer footer--base">
+  <div class="by_farbox">
+    <ul class="footer__list">
+      <li class="footer__item">
+        &copy;
+        
+          Neel Kamal Panda
+          2021
+
+
+        
+      </li>
+      
+    </ul>
+  </div>
+</footer></body>
+</html>

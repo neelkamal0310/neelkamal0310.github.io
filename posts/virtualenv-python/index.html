@@ -15,7 +15,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.84.4" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.85.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta
     name="description"
     content="
@@ -257,55 +257,55 @@ using a POSIX compliant shell (preferably bash or zsh). Any command not
 <h2 id="create-a-project-directory">Create a project directory.</h2>
 <p>First, we need to create a project directory (the directory where we would
 store our work)</p>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">2
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir example
-<span style="color:#81a1c1">cd</span> example
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir example
+<span style="color:#8be9fd;font-style:italic">cd</span> example
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="install-the-virtualenv-package">Install the <code>virtualenv</code> package.</h2>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install virtualenv
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install virtualenv
 </code></pre></td></tr></table>
 </div>
 </div><p><em>Note: The package manager of your operating system might ship with an older
 version of <code>virtualenv</code>. The preferred way of installing virtualenv is with pip.</em></p>
 <h2 id="initialize-the-virtual-environment">Initialize the virtual environment</h2>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python3 -m virtualenv venv
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python3 -m virtualenv venv
 </code></pre></td></tr></table>
 </div>
 </div><p>Or, you can specify the python version (or path) to use with the <code>-p</code> parameter.
 Like so:</p>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python3 -m virtualenv -p /usr/bin/python3.8 venv
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python3 -m virtualenv -p /usr/bin/python3.8 venv
 </code></pre></td></tr></table>
 </div>
 </div><p>This runs the virtualenv program and creates a virtual environment inside a
 subdirectory named venv(you can change this).</p>
 <h2 id="activate-the-virtual-environment">Activate the virtual environment</h2>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#81a1c1">source</span> ./venv/bin/activate
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8be9fd;font-style:italic">source</span> ./venv/bin/activate
 </code></pre></td></tr></table>
 </div>
 </div><p>If everything went right, you will notice your shell prompt has changed. It now
@@ -314,12 +314,12 @@ directory, dependending on your prompt configuration).</p>
 <h1 id="installing-packages-inside-the-virtual-environment">Installing packages inside the virtual environment</h1>
 <hr>
 <p>Run:</p>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip freeze  <span style="color:#616e87;font-style:italic"># This command lists all installed python packages</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip freeze  <span style="color:#6272a4"># This command lists all installed python packages</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Right away you will notice there are no packages installed. Yes, that&rsquo;s how
@@ -328,16 +328,16 @@ it&rsquo;s supposed to be. You can now start installing packages.</p>
 <p><em>pip install <em>&lt;package-name&gt;</em>==<em>&lt;version&gt;</em></em></p>
 <p>You can omit the version if you are not sure, we will talk about it in a bit.
 Some valid examples:</p>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">3
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install Django<span style="color:#81a1c1">==</span>3.1.4
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install <span style="color:#8be9fd;font-style:italic">Django</span><span style="color:#ff79c6">==</span>3.1.4
 pip install virtualenv
-pip install Flask<span style="color:#81a1c1">==</span>1.1.2
+pip install <span style="color:#8be9fd;font-style:italic">Flask</span><span style="color:#ff79c6">==</span>1.1.2
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>Best practice:</strong></p>
@@ -348,14 +348,14 @@ in a new line.</li>
 <li>You can choose to include the version, we can fix it easily.</li>
 <li>Writing the above installed packages in requirements.txt:</li>
 </ul>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">3
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Django==3.1.4
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Django==3.1.4
 virtualenv
 Flask==1.1.2
 </code></pre></td></tr></table>
@@ -363,36 +363,36 @@ Flask==1.1.2
 </div><ul>
 <li>Then you can easily install all the packages with:</li>
 </ul>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">pip install -r requirements.txt
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">pip install -r requirements.txt
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>Your environment is now ready and you can start working on your project</strong></p>
 <p>After finishing your work, move to the folder requirements.txt exists and run
 this command to replace it with all installed packages along with their
 version:</p>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip freeze &gt; requirements.txt
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip freeze &gt; requirements.txt
 </code></pre></td></tr></table>
 </div>
 </div><h1 id="deactivating-the-environment">Deactivating the environment</h1>
 <hr>
 <p>Once you are done working, you might want to get out of the environment. Run
 this command:</p>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">deactivate
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">deactivate
 </code></pre></td></tr></table>
 </div>
 </div><p>or just close your terminal if you too tired to type anything and have a nice nap.</p>
@@ -421,57 +421,57 @@ deactivate the environment and call it a day.</p>
 pretty quickly.</p>
 <h1 id="tldr">TL;DR</h1>
 <hr>
-<div class="highlight"><div style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6c6f74">24
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#616e87;font-style:italic"># Install virtualenv</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#6272a4"># Install virtualenv</span>
 pip install virtualenv
 
-<span style="color:#616e87;font-style:italic"># Create project directory and move into it</span>
-mkdir example <span style="color:#81a1c1">&amp;&amp;</span> <span style="color:#81a1c1">cd</span> $_
+<span style="color:#6272a4"># Create project directory and move into it</span>
+mkdir example <span style="color:#ff79c6">&amp;&amp;</span> <span style="color:#8be9fd;font-style:italic">cd</span> <span style="color:#8be9fd;font-style:italic">$_</span>
 
-<span style="color:#616e87;font-style:italic"># Initialize virtualenv</span>
+<span style="color:#6272a4"># Initialize virtualenv</span>
 python3 -m virtualenv venv
 
-<span style="color:#616e87;font-style:italic"># Activate virtualenv</span>
-<span style="color:#81a1c1">source</span> venv/bin/activate
+<span style="color:#6272a4"># Activate virtualenv</span>
+<span style="color:#8be9fd;font-style:italic">source</span> venv/bin/activate
 
-<span style="color:#616e87;font-style:italic"># Install packages</span>
-pip install &lt;package1&gt; &lt;package2&gt;<span style="color:#81a1c1">==</span>&lt;version&gt; &lt;package3&gt;
+<span style="color:#6272a4"># Install packages</span>
+pip install &lt;package1&gt; &lt;package2&gt;<span style="color:#ff79c6">==</span>&lt;version&gt; &lt;package3&gt;
 
-<span style="color:#616e87;font-style:italic"># ---</span>
-<span style="color:#616e87;font-style:italic"># Do you work, installing packages as required</span>
-<span style="color:#616e87;font-style:italic"># ---</span>
+<span style="color:#6272a4"># ---</span>
+<span style="color:#6272a4"># Do you work, installing packages as required</span>
+<span style="color:#6272a4"># ---</span>
 
-<span style="color:#616e87;font-style:italic"># Create a requirement.txt file</span>
+<span style="color:#6272a4"># Create a requirement.txt file</span>
 pip freeze &gt; requirements.txt
 
-<span style="color:#616e87;font-style:italic"># Deactivate virtual environment</span>
+<span style="color:#6272a4"># Deactivate virtual environment</span>
 deactivate
 </code></pre></td></tr></table>
 </div>
